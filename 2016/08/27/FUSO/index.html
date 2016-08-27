@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Mot-clé: wiki | SING Weekly Materials</title>
+  <title>FUSO Leveraging Multi-path Diversity for Transport Loss Recovery in Data Centers | SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is a blog to post weekly group meeting materials and discussions">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SING Weekly Materials">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/tags/wiki/index.html">
+  <meta name="description" content="Summary:In modern DCN, packet loss is inavoidable, mainly due to cong-estion loss and hardware failures. Such loss will hurt thetail latency of network flows. conventional TCP applies fastrecovery and">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FUSO Leveraging Multi-path Diversity for Transport Loss Recovery in Data Centers">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/08/27/FUSO/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta property="og:description" content="Summary:In modern DCN, packet loss is inavoidable, mainly due to cong-estion loss and hardware failures. Such loss will hurt thetail latency of network flows. conventional TCP applies fastrecovery and">
+<meta property="og:updated_time" content="2016-08-27T07:14:36.871Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SING Weekly Materials">
-<meta name="twitter:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta name="twitter:title" content="FUSO Leveraging Multi-path Diversity for Transport Loss Recovery in Data Centers">
+<meta name="twitter:description" content="Summary:In modern DCN, packet loss is inavoidable, mainly due to cong-estion loss and hardware failures. Such loss will hurt thetail latency of network flows. conventional TCP applies fastrecovery and">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -66,39 +67,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/sing_weekly/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/sing_weekly/2015/05/23/hello-world/" class="archive-article-date">
-  <time datetime="2015-05-23T06:00:00.000Z" itemprop="datePublished">May 23</time>
+        <section id="main"><article id="post-FUSO" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/sing_weekly/2016/08/27/FUSO/" class="article-date">
+  <time datetime="2016-08-27T06:00:00.000Z" itemprop="datePublished">2016-08-27</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/sing_weekly/categories/ATC/">ATC</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/sing_weekly/2015/05/23/hello-world/">Hello World, How to read a paper</a>
+    <h1 class="article-title" itemprop="name">
+      FUSO Leveraging Multi-path Diversity for Transport Loss Recovery in Data Centers
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>In modern DCN, packet loss is inavoidable, mainly due to cong-<br>estion loss and hardware failures. Such loss will hurt the<br>tail latency of network flows. conventional TCP applies fast<br>recovery and timeout (RTO) to mitigate the loss. However,<br>in DCNs, the RTO is costly, which lead to many efforts in<br>avoiding RTO. Previous works more or less introduce large<br>redundency.</p>
+<p>This work leverages multi-path diversity in DCN for transport<br>loss recovery. In FUSO, when a multi-path transport sender<br>suspects loss on one sub-flow, recovery packets are immediately<br>sent over another sub-flow that is not or less lossy and has<br>spare congestion window slots.</p>
+<p><a href="https://www.usenix.org/system/files/conference/atc16/atc16_paper_chen.pdf" target="_blank" rel="external">Paper Link</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/08/27/FUSO/" data-id="ciscuqpy30000k2qxi2jyxdg6" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Loss-Recovery/">Loss Recovery</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Multi-Path/">Multi-Path</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Transport-Layer/">Transport Layer</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/sing_weekly/2016/08/20/sigcomm16_rehearsal/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">Rehearsal of CODA and Karuna</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
