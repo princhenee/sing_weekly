@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Category: ATC | SING Weekly Materials</title>
+  <title>RDMA over Commodity Ethernet at Scale | SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is a blog to post weekly group meeting materials and discussions">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SING Weekly Materials">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/categories/ATC/index.html">
+  <meta name="description" content="Summary:With the requirement of today’s low delay network, researchersin Microsoft have deployed RDMA to address TCP’s latency and CPUoverhead problems. The technology applied is RoCEv2, known asRDMA">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RDMA over Commodity Ethernet at Scale">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/09/10/RDMA_over_Ethernet_scale/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta property="og:description" content="Summary:With the requirement of today’s low delay network, researchersin Microsoft have deployed RDMA to address TCP’s latency and CPUoverhead problems. The technology applied is RoCEv2, known asRDMA">
+<meta property="og:updated_time" content="2016-09-12T04:38:07.038Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SING Weekly Materials">
-<meta name="twitter:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta name="twitter:title" content="RDMA over Commodity Ethernet at Scale">
+<meta name="twitter:description" content="Summary:With the requirement of today’s low delay network, researchersin Microsoft have deployed RDMA to address TCP’s latency and CPUoverhead problems. The technology applied is RoCEv2, known asRDMA">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -66,39 +67,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/sing_weekly/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/sing_weekly/2016/08/27/FUSO/" class="archive-article-date">
-  <time datetime="2016-08-27T06:00:00.000Z" itemprop="datePublished">Aug 27</time>
+        <section id="main"><article id="post-RDMA_over_Ethernet_scale" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/sing_weekly/2016/09/10/RDMA_over_Ethernet_scale/" class="article-date">
+  <time datetime="2016-09-10T06:00:00.000Z" itemprop="datePublished">2016-09-10</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/sing_weekly/2016/08/27/FUSO/">FUSO Leveraging Multi-path Diversity for Transport Loss Recovery in Data Centers</a>
+    <h1 class="article-title" itemprop="name">
+      RDMA over Commodity Ethernet at Scale
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>With the requirement of today’s low delay network, researchers<br>in Microsoft have deployed RDMA to address TCP’s latency and CPU<br>overhead problems. The technology applied is RoCEv2, known as<br>RDMA over Converged Ethernet.</p>
+<p>Unlike TCP, RDMA needs a lossless network. However, this is not<br>achieved with zero cost. The authors describe some problems en-<br>countered during their large scale deployment of RDMA in the DCN<br>of Microsoft. The most important are: 1) RDMA transport livelock;<br>2) PFC deadlock; 3) PFC pause frame storm; 4) Slow-receiver sym-<br>ptom. The paper also highlights an open problem: How to achieve<br>low latency and high throughput at the same time for RDMA in DCN.<br>The fact is that  A lossless network does not guarantee low latency.</p>
+<p><a href="http://dl.acm.org/authorize?N19264" target="_blank" rel="external">Paper Link</a><br><a href="http://conferences.sigcomm.org/sigcomm/2016/files/program/sigcomm/Session05-Paper03-RDMA-Chuanxiong-Slides.pdf" target="_blank" rel="external">Slides Link</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/09/10/RDMA_over_Ethernet_scale/" data-id="ciszk7i6x000b3pqx9naqw3li" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/RDMA/">RDMA</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/sing_weekly/2016/09/03/Ernest/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Ernest Efficient Performance Prediction for Large-Scale Advanced Analytics</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
