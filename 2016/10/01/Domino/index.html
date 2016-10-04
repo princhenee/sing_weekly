@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2016/7 | SING Weekly Materials</title>
+  <title>Packet Transaction High-Level Programming for Line-Rate Switches | SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is a blog to post weekly group meeting materials and discussions">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SING Weekly Materials">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/archives/2016/07/index.html">
+  <meta name="description" content="Summary:This paper shows how to program data-plane algorithmsin a high-level language and compile those programsinto low-level microcode that can run on emerging programmableline-rate switching chips.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Packet Transaction High-Level Programming for Line-Rate Switches">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/10/01/Domino/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta property="og:description" content="Summary:This paper shows how to program data-plane algorithmsin a high-level language and compile those programsinto low-level microcode that can run on emerging programmableline-rate switching chips.">
+<meta property="og:updated_time" content="2016-10-04T10:58:43.606Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SING Weekly Materials">
-<meta name="twitter:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta name="twitter:title" content="Packet Transaction High-Level Programming for Line-Rate Switches">
+<meta name="twitter:description" content="Summary:This paper shows how to program data-plane algorithmsin a high-level language and compile those programsinto low-level microcode that can run on emerging programmableline-rate switching chips.">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -66,39 +67,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/sing_weekly/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/sing_weekly/2016/07/23/first-introduction-to-NFV/" class="archive-article-date">
-  <time datetime="2016-07-23T06:00:00.000Z" itemprop="datePublished">Jul 23</time>
+        <section id="main"><article id="post-Domino" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/sing_weekly/2016/10/01/Domino/" class="article-date">
+  <time datetime="2016-10-01T06:00:00.000Z" itemprop="datePublished">2016-10-01</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/sing_weekly/2016/07/23/first-introduction-to-NFV/">OpenNF Enabling Innovation in Network Function Control</a>
+    <h1 class="article-title" itemprop="name">
+      Packet Transaction High-Level Programming for Line-Rate Switches
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>This paper shows how to program data-plane algorithms<br>in a high-level language and compile those programs<br>into low-level microcode that can run on emerging programmable<br>line-rate switching chips. The key challenge is<br>that many data-plane algorithms create and modify algorithmic<br>state. Authors introduce the notion of a packet transaction:<br>a sequential packet-processing code block that is atomic and<br>isolated from other such code blocks. With this abstraction,<br>switch is able to process packets in line-rate.</p>
+<p>In sum, this paper defines a block of imperative code as a<br>packet transaction, which is then composed of several atoms<br>(instructions set executed exclusively). Finally, it gives<br>a detailed description on the compiler, which compiles packet<br>transaction to atoms.</p>
+<p><a href="http://dl.acm.org/authorize?N19251" target="_blank" rel="external">Paper Link</a><br><a href="http://conferences.sigcomm.org/sigcomm/2016/files/program/sigcomm/Session01-Paper02-Packet-Anirudh-Slides.pdf" target="_blank" rel="external">Slides Link</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/01/Domino/" data-id="citvdhbi00000bgqxz60mdlzi" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/NFV/">NFV</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Programmable-Switch/">Programmable Switch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/sing_weekly/2016/09/10/RDMA_over_Ethernet_scale/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">RDMA over Commodity Ethernet at Scale</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
