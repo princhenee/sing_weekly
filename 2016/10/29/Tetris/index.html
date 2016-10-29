@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Category: OSDI | SING Weekly Materials</title>
+  <title>Multi-Resource Packing for Cluster Schedulers | SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is a blog to post weekly group meeting materials and discussions">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SING Weekly Materials">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/categories/OSDI/index.html">
+  <meta name="description" content="Summary:This paper introduces Tetris, a multi-resource cluster scheduler that packstasks to machines based on their requirements of all resource types. Previousscheduling policies may result in waste">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Multi-Resource Packing for Cluster Schedulers">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/10/29/Tetris/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta property="og:description" content="Summary:This paper introduces Tetris, a multi-resource cluster scheduler that packstasks to machines based on their requirements of all resource types. Previousscheduling policies may result in waste">
+<meta property="og:updated_time" content="2016-10-29T06:40:53.692Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SING Weekly Materials">
-<meta name="twitter:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta name="twitter:title" content="Multi-Resource Packing for Cluster Schedulers">
+<meta name="twitter:description" content="Summary:This paper introduces Tetris, a multi-resource cluster scheduler that packstasks to machines based on their requirements of all resource types. Previousscheduling policies may result in waste">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -66,39 +67,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/sing_weekly/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/sing_weekly/2016/10/15/TensorFlow/" class="archive-article-date">
-  <time datetime="2016-10-15T06:00:00.000Z" itemprop="datePublished">Oct 15</time>
+        <section id="main"><article id="post-Tetris" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/sing_weekly/2016/10/29/Tetris/" class="article-date">
+  <time datetime="2016-10-29T06:00:00.000Z" itemprop="datePublished">2016-10-29</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/sing_weekly/2016/10/15/TensorFlow/">TensorFlow</a>
+    <h1 class="article-title" itemprop="name">
+      Multi-Resource Packing for Cluster Schedulers
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>This paper introduces Tetris, a multi-resource cluster scheduler that packs<br>tasks to machines based on their requirements of all resource types. Previous<br>scheduling policies may result in waste due to resource (e.g. CPU, memory)<br>fragmentation and over-allocation. Also, fairness concern further degrades<br>the performance. This paper aims to strike a balance between efficiency,<br>job completion time and fairness.</p>
+<p>To achieve all goals,Tetris adapts heuristics for the multi-dimensional bin<br>packing problem to the context of cluster schedulers.  In addition, Tetris<br>improves average job completion time by prioritizing jobs that have less re-<br>maining work. Trace-driven simulations and deployment of their Apache YARN<br>prototype on a 250 node cluster show gains of over 30% in makespan and job<br>completion time while achieving nearly perfect fairness.</p>
+<p><a href="http://dl.acm.org/authorize?N71242" target="_blank" rel="external">Paper Link</a><br><a href="http://conferences.sigcomm.org/sigcomm/2014/doc/slides/84.pdf" target="_blank" rel="external">Slides Link</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/29/Tetris/" data-id="ciuuuabwz000fvvqxzf6fdudi" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Distributed-System/">Distributed System</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Resource-Allocation/">Resource Allocation</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/sing_weekly/2016/10/22/PISCES/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">PISCES A Programmable, Protocol-Independent Software Switch</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
