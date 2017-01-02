@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>CLOVE How I Learned to Stop Worrying About the Core and Love the Edge | SING Weekly Materials</title>
+  <title>HyPer4 | SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Summary:In this paper, the authors argue that the end-host hypervisor provides asweet spot for implementing a spectrum of load-balancing algorithms thatare fine-grained, congestion-aware, and reactive">
+  <meta name="description" content="Summary:In this paper, researchers propose HyPer4 as a portable virtualization solution.HyPer4 provides a general purpose program, written in the P4 dataplane programm-ing language, that may be dynami">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CLOVE How I Learned to Stop Worrying About the Core and Love the Edge">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/11/05/CLOVE/index.html">
+<meta property="og:title" content="HyPer4">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/12/31/HyPer4/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="Summary:In this paper, the authors argue that the end-host hypervisor provides asweet spot for implementing a spectrum of load-balancing algorithms thatare fine-grained, congestion-aware, and reactive">
-<meta property="og:updated_time" content="2016-11-26T09:16:58.350Z">
+<meta property="og:description" content="Summary:In this paper, researchers propose HyPer4 as a portable virtualization solution.HyPer4 provides a general purpose program, written in the P4 dataplane programm-ing language, that may be dynami">
+<meta property="og:updated_time" content="2016-12-31T06:16:21.094Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CLOVE How I Learned to Stop Worrying About the Core and Love the Edge">
-<meta name="twitter:description" content="Summary:In this paper, the authors argue that the end-host hypervisor provides asweet spot for implementing a spectrum of load-balancing algorithms thatare fine-grained, congestion-aware, and reactive">
+<meta name="twitter:title" content="HyPer4">
+<meta name="twitter:description" content="Summary:In this paper, researchers propose HyPer4 as a portable virtualization solution.HyPer4 provides a general purpose program, written in the P4 dataplane programm-ing language, that may be dynami">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -67,10 +67,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-CLOVE" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-HyPer4" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/sing_weekly/2016/11/05/CLOVE/" class="article-date">
-  <time datetime="2016-11-05T06:00:00.000Z" itemprop="datePublished">2016-11-05</time>
+    <a href="/sing_weekly/2016/12/31/HyPer4/" class="article-date">
+  <time datetime="2016-12-31T06:00:00.000Z" itemprop="datePublished">2016-12-31</time>
 </a>
     
   <div class="article-category">
@@ -85,7 +85,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      CLOVE How I Learned to Stop Worrying About the Core and Love the Edge
+      HyPer4
     </h1>
   
 
@@ -93,17 +93,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>In this paper, the authors argue that the end-host hypervisor provides a<br>sweet spot for implementing a spectrum of load-balancing algorithms that<br>are fine-grained, congestion-aware, and reactive to network dynamics at<br>round-trip timescales. This paper proposes CLOVE, a scalable hypervisor-<br>based load-balancer that requires no changes to guest VMs or to physical<br>network switches. CLOVE uses standard ECMP in the physical network, learns<br>about equal-cost network paths using a traceroute mechanism, and learns<br>about congestion state along these paths using standard switch features<br>such as ECN. It then manipulates packet header fields in the hypervisor<br>virtual switch to route traffic over less congested paths.</p>
-<p>In future work, the authors plan to study the fundamental load-balancing<br>gap between obtaining exact utilization values and obtaining only conge-<br>stion indications as in ECN.</p>
-<p><a href="https://www.cs.princeton.edu/~nkatta/papers/clove-hotnets16.pdf" target="_blank" rel="external">Paper Link</a></p>
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>In this paper, researchers propose HyPer4 as a portable virtualization solution.<br>HyPer4 provides a general purpose program, written in the P4 dataplane programm-<br>ing language, that may be dynamically configured to adopt behavior that is func-<br>tionally equivalent to other P4 programs. HyPer4 permits users to modify the set<br>of programs, as well as the virtual network connecting them, at runtime, without<br>disrupting currently active programs.</p>
+<p>In many cases network operators might desire more than one context for a given<br>network device even if this device has only one physical data plane. One answer<br>is virtualization. This technique permits the illusion of multiple programmable<br>data planes and greater flexibility as to how they are used.</p>
+<p><a href="https://www.flux.utah.edu/paper/244" target="_blank" rel="external">Paper Link</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/05/CLOVE/" data-id="cixcu56fq0000u6qxk6wid11o" class="article-share-link">Share</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/12/31/HyPer4/" data-id="cixcu56gn0007u6qxwo46f557" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Load-Balancing/">Load Balancing</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Transport-Layer/">Transport Layer</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/P4/">P4</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Programmable-Switch/">Programmable Switch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
 
     </footer>
   </div>
@@ -111,19 +111,10 @@
     
 <nav id="article-nav">
   
-    <a href="/sing_weekly/2016/11/12/ProjecToR/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          ProjecToR Agile Reconfigurable Data Center Interconnect
-        
-      </div>
-    </a>
   
-  
-    <a href="/sing_weekly/2016/10/29/Tetris/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/sing_weekly/2016/12/03/Trumpet/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Multi-Resource Packing for Cluster Schedulers</div>
+      <div class="article-nav-title">Trumpet Timely and Precise Triggers in Data Centers</div>
     </a>
   
 </nav>
