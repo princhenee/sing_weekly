@@ -55,9 +55,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://princhenee.github.io/sing_weekly"></form>
@@ -68,6 +68,51 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-BBR" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/sing_weekly/2017/02/25/BBR/" class="article-date">
+  <time datetime="2017-02-25T06:00:00.000Z" itemprop="datePublished">2017-02-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/sing_weekly/categories/ACM-Queue/">ACM Queue</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/sing_weekly/2017/02/25/BBR/">BBR Congestion-based congestion control</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>Internet congestion problems result from a design choice made when TCP conges-<br>tion control was created in the 1980s�—interpreting packet loss as “congest-<br>ion.” This equivalence was true at the time but was because of technology lim-<br>itations, not first principles. As NICs (network interface controllers) evolved<br>from Mbps to Gbps and memory chips from KB to GB, the relationship between pac-<br>ket loss and congestion became more tenuous.</p>
+<p>Today TCP’s loss-based congestion control�—even with the current best of breed<br>, CUBIC�—is the primary cause of these problems. When bottleneck buffers are<br>large, loss-based congestion control keeps them full, causing bufferbloat. When<br>bottleneck buffers are small, loss-based congestion control misinterprets loss<br>as a signal of congestion, leading to low throughput. Fixing these problems req-<br>uires an alternative to loss-based congestion control. Finding this alternative<br>requires an understanding of where and how network congestion originates.</p>
+<p><a href="https://research.google.com/pubs/pub45646.html" target="_blank" rel="external">Paper Link</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2017/02/25/BBR/" data-id="cizkwmpco0000f8qx3di6drwu" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Congestion-Control/">Congestion Control</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-HyPer4" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/sing_weekly/2016/12/31/HyPer4/" class="article-date">
@@ -75,7 +120,7 @@
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/sing_weekly/categories/HotNets/">HotNets</a>
+    <a class="article-category-link" href="/sing_weekly/categories/CoNext/">CoNext</a>
   </div>
 
   </div>
@@ -101,7 +146,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/12/31/HyPer4/" data-id="cixfrqjsa0007jmqxe96py4mp" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/12/31/HyPer4/" data-id="cizkwmpdq000df8qxcgzpcexu" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/P4/">P4</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Programmable-Switch/">Programmable Switch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
@@ -146,7 +191,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/12/03/Trumpet/" data-id="cixfrqjtf000yjmqxx6dnrk0z" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/12/03/Trumpet/" data-id="cizkwmpey0010f8qxoaxw74zh" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Network-Monitoring/">Network Monitoring</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
@@ -190,7 +235,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/26/NetPoirot/" data-id="cixfrqjsg000bjmqx7i9i6rjb" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/26/NetPoirot/" data-id="cizkwmpdw000gf8qxsqg48a2y" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Failure-Detection/">Failure Detection</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
@@ -235,7 +280,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/19/NetworkDCC/" data-id="cixfrqjsk000gjmqx8e451gbk" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/19/NetworkDCC/" data-id="cizkwmpeo000yf8qxr2z42r30" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/New-Architecture/">New Architecture</a></li></ul>
@@ -279,7 +324,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/12/ProjecToR/" data-id="cixfrqjsr000njmqxfm5k89am" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/12/ProjecToR/" data-id="cizkwmpek000tf8qx2u714z2w" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Optical/">Optical</a></li></ul>
@@ -324,7 +369,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/05/CLOVE/" data-id="cixfrqjrl0000jmqxq6jedjpa" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/11/05/CLOVE/" data-id="cizkwmpcv0001f8qxymtd6j05" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Load-Balancing/">Load Balancing</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Transport-Layer/">Transport Layer</a></li></ul>
@@ -369,7 +414,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/29/Tetris/" data-id="cixfrqjt2000vjmqxss2ljy7s" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/29/Tetris/" data-id="cizkwmpf20014f8qxxnzf6on0" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Distributed-System/">Distributed System</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Resource-Allocation/">Resource Allocation</a></li></ul>
@@ -414,7 +459,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/22/PISCES/" data-id="cixfrqjso000jjmqx5wt3zuzk" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/22/PISCES/" data-id="cizkwmpe3000jf8qxdq710toi" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/P4/">P4</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Programmable-Switch/">Programmable Switch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
@@ -459,55 +504,10 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/15/TensorFlow/" data-id="cixfrqjsz000tjmqxqwcz0579" class="article-share-link">Partager</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/15/TensorFlow/" data-id="cizkwmpfd001hf8qxpxz80qrp" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Machine-Learning/">Machine Learning</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-Domino" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/sing_weekly/2016/10/01/Domino/" class="article-date">
-  <time datetime="2016-10-01T06:00:00.000Z" itemprop="datePublished">2016-10-01</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/sing_weekly/2016/10/01/Domino/">Packet Transaction High-Level Programming for Line-Rate Switches</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>This paper shows how to program data-plane algorithms in a high-level lang-<br>uage and compile those programs into low-level microcode that can run on e-<br>merging programmable line-rate switching chips. The key challenge is that<br>many data-plane algorithms create and modify algorithmic state. Authors in-<br>troduce the notion of a packet transaction: a sequential packet-processing<br>code block that is atomic and isolated from other such code blocks. With t-<br>his abstraction, switch is able to process packets in line-rate.</p>
-<p>In summary, this paper defines a block of imperative code as a packet tran-<br>saction, which is then composed of several atoms (instructions set executed<br>exclusively). Finally, it gives a detailed description on the compiler, wh-<br>ich compiles packet transaction to atoms.</p>
-<p><a href="http://dl.acm.org/authorize?N19251" target="_blank" rel="external">Paper Link</a><br><a href="http://conferences.sigcomm.org/sigcomm/2016/files/program/sigcomm/Session01-Paper02-Packet-Anirudh-Slides.pdf" target="_blank" rel="external">Slides Link</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/01/Domino/" data-id="cixfrqjrs0001jmqx6figepjv" class="article-share-link">Partager</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/NFV/">NFV</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/P4/">P4</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li></ul>
 
     </footer>
   </div>
@@ -527,9 +527,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Catégories</h3>
+    <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/ATC/">ATC</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/HotNets/">HotNets</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/NSDI/">NSDI</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/OSDI/">OSDI</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/ACM-Queue/">ACM Queue</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/ATC/">ATC</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/CoNext/">CoNext</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/HotNets/">HotNets</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/NSDI/">NSDI</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/OSDI/">OSDI</a></li><li class="category-list-item"><a class="category-list-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a></li></ul>
     </div>
   </div>
 
@@ -537,9 +537,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Mot-clés</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Bandwidth-Allocation/">Bandwidth Allocation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Coflow/">Coflow</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Deadline-Flow/">Deadline Flow</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Distributed-System/">Distributed System</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Failure-Detection/">Failure Detection</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Flow-Scheduling/">Flow Scheduling</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Load-Balancing/">Load Balancing</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Loss-Recovery/">Loss Recovery</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Machine-Learning/">Machine Learning</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Middlebox/">Middlebox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Multi-Path/">Multi-Path</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/NFV/">NFV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Network-Monitoring/">Network Monitoring</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/New-Architecture/">New Architecture</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Optical/">Optical</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/P4/">P4</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Programmable-Switch/">Programmable Switch</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/RDMA/">RDMA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Race-condition/">Race condition</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Resource-Allocation/">Resource Allocation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Transport-Layer/">Transport Layer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/wiki/">wiki</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Bandwidth-Allocation/">Bandwidth Allocation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Coflow/">Coflow</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Congestion-Control/">Congestion Control</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Deadline-Flow/">Deadline Flow</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Distributed-System/">Distributed System</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Failure-Detection/">Failure Detection</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Flow-Scheduling/">Flow Scheduling</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Load-Balancing/">Load Balancing</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Loss-Recovery/">Loss Recovery</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Machine-Learning/">Machine Learning</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Middlebox/">Middlebox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Multi-Path/">Multi-Path</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/NFV/">NFV</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Network-Monitoring/">Network Monitoring</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/New-Architecture/">New Architecture</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Optical/">Optical</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/P4/">P4</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Programmable-Switch/">Programmable Switch</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/RDMA/">RDMA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Race-condition/">Race condition</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Resource-Allocation/">Resource Allocation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/SDN/">SDN</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/Transport-Layer/">Transport Layer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/sing_weekly/tags/wiki/">wiki</a></li></ul>
     </div>
   </div>
 
@@ -547,9 +547,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/sing_weekly/tags/Bandwidth-Allocation/" style="font-size: 10px;">Bandwidth Allocation</a> <a href="/sing_weekly/tags/Coflow/" style="font-size: 10px;">Coflow</a> <a href="/sing_weekly/tags/Deadline-Flow/" style="font-size: 10px;">Deadline Flow</a> <a href="/sing_weekly/tags/Distributed-System/" style="font-size: 12.5px;">Distributed System</a> <a href="/sing_weekly/tags/Failure-Detection/" style="font-size: 10px;">Failure Detection</a> <a href="/sing_weekly/tags/Flow-Scheduling/" style="font-size: 10px;">Flow Scheduling</a> <a href="/sing_weekly/tags/Load-Balancing/" style="font-size: 10px;">Load Balancing</a> <a href="/sing_weekly/tags/Loss-Recovery/" style="font-size: 10px;">Loss Recovery</a> <a href="/sing_weekly/tags/Machine-Learning/" style="font-size: 12.5px;">Machine Learning</a> <a href="/sing_weekly/tags/Middlebox/" style="font-size: 10px;">Middlebox</a> <a href="/sing_weekly/tags/Multi-Path/" style="font-size: 10px;">Multi-Path</a> <a href="/sing_weekly/tags/NFV/" style="font-size: 12.5px;">NFV</a> <a href="/sing_weekly/tags/Network-Monitoring/" style="font-size: 10px;">Network Monitoring</a> <a href="/sing_weekly/tags/New-Architecture/" style="font-size: 10px;">New Architecture</a> <a href="/sing_weekly/tags/Optical/" style="font-size: 10px;">Optical</a> <a href="/sing_weekly/tags/P4/" style="font-size: 15px;">P4</a> <a href="/sing_weekly/tags/Programmable-Switch/" style="font-size: 12.5px;">Programmable Switch</a> <a href="/sing_weekly/tags/RDMA/" style="font-size: 10px;">RDMA</a> <a href="/sing_weekly/tags/Race-condition/" style="font-size: 10px;">Race condition</a> <a href="/sing_weekly/tags/Resource-Allocation/" style="font-size: 12.5px;">Resource Allocation</a> <a href="/sing_weekly/tags/SDN/" style="font-size: 20px;">SDN</a> <a href="/sing_weekly/tags/Transport-Layer/" style="font-size: 17.5px;">Transport Layer</a> <a href="/sing_weekly/tags/wiki/" style="font-size: 10px;">wiki</a>
+      <a href="/sing_weekly/tags/Bandwidth-Allocation/" style="font-size: 10px;">Bandwidth Allocation</a> <a href="/sing_weekly/tags/Coflow/" style="font-size: 10px;">Coflow</a> <a href="/sing_weekly/tags/Congestion-Control/" style="font-size: 10px;">Congestion Control</a> <a href="/sing_weekly/tags/Deadline-Flow/" style="font-size: 10px;">Deadline Flow</a> <a href="/sing_weekly/tags/Distributed-System/" style="font-size: 12.5px;">Distributed System</a> <a href="/sing_weekly/tags/Failure-Detection/" style="font-size: 10px;">Failure Detection</a> <a href="/sing_weekly/tags/Flow-Scheduling/" style="font-size: 10px;">Flow Scheduling</a> <a href="/sing_weekly/tags/Load-Balancing/" style="font-size: 10px;">Load Balancing</a> <a href="/sing_weekly/tags/Loss-Recovery/" style="font-size: 10px;">Loss Recovery</a> <a href="/sing_weekly/tags/Machine-Learning/" style="font-size: 12.5px;">Machine Learning</a> <a href="/sing_weekly/tags/Middlebox/" style="font-size: 10px;">Middlebox</a> <a href="/sing_weekly/tags/Multi-Path/" style="font-size: 10px;">Multi-Path</a> <a href="/sing_weekly/tags/NFV/" style="font-size: 12.5px;">NFV</a> <a href="/sing_weekly/tags/Network-Monitoring/" style="font-size: 10px;">Network Monitoring</a> <a href="/sing_weekly/tags/New-Architecture/" style="font-size: 10px;">New Architecture</a> <a href="/sing_weekly/tags/Optical/" style="font-size: 10px;">Optical</a> <a href="/sing_weekly/tags/P4/" style="font-size: 15px;">P4</a> <a href="/sing_weekly/tags/Programmable-Switch/" style="font-size: 12.5px;">Programmable Switch</a> <a href="/sing_weekly/tags/RDMA/" style="font-size: 10px;">RDMA</a> <a href="/sing_weekly/tags/Race-condition/" style="font-size: 10px;">Race condition</a> <a href="/sing_weekly/tags/Resource-Allocation/" style="font-size: 12.5px;">Resource Allocation</a> <a href="/sing_weekly/tags/SDN/" style="font-size: 20px;">SDN</a> <a href="/sing_weekly/tags/Transport-Layer/" style="font-size: 17.5px;">Transport Layer</a> <a href="/sing_weekly/tags/wiki/" style="font-size: 10px;">wiki</a>
     </div>
   </div>
 
@@ -558,7 +558,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2015/05/">May 2015</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/sing_weekly/archives/2015/05/">May 2015</a></li></ul>
     </div>
   </div>
 
@@ -566,9 +566,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/sing_weekly/2017/02/25/BBR/">BBR Congestion-based congestion control</a>
+          </li>
         
           <li>
             <a href="/sing_weekly/2016/12/31/HyPer4/">HyPer4 Using P4 to Virtualize the Programmable Data Plane</a>
@@ -586,10 +590,6 @@
             <a href="/sing_weekly/2016/11/19/NetworkDCC/">Network Requirements for Resource Disaggregation</a>
           </li>
         
-          <li>
-            <a href="/sing_weekly/2016/11/12/ProjecToR/">ProjecToR Agile Reconfigurable Data Center Interconnect</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -603,7 +603,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 SING @ HKUST<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

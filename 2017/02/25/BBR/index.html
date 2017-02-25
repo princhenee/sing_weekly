@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Machine Learning | SING Weekly Materials</title>
+  <title>BBR Congestion-based congestion control | SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is a blog to post weekly group meeting materials and discussions">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SING Weekly Materials">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/tags/Machine-Learning/index.html">
+  <meta name="description" content="Summary:Internet congestion problems result from a design choice made when TCP conges-tion control was created in the 1980s�—interpreting packet loss as “congest-ion.” This equivalence was true at the">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BBR Congestion-based congestion control">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2017/02/25/BBR/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta property="og:description" content="Summary:Internet congestion problems result from a design choice made when TCP conges-tion control was created in the 1980s�—interpreting packet loss as “congest-ion.” This equivalence was true at the">
+<meta property="og:updated_time" content="2017-02-25T07:05:14.369Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SING Weekly Materials">
-<meta name="twitter:description" content="This is a blog to post weekly group meeting materials and discussions">
+<meta name="twitter:title" content="BBR Congestion-based congestion control">
+<meta name="twitter:description" content="Summary:Internet congestion problems result from a design choice made when TCP conges-tion control was created in the 1980s�—interpreting packet loss as “congest-ion.” This equivalence was true at the">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -66,58 +67,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/sing_weekly/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/sing_weekly/2016/10/15/TensorFlow/" class="archive-article-date">
-  <time datetime="2016-10-15T06:00:00.000Z" itemprop="datePublished">Oct 15</time>
+        <section id="main"><article id="post-BBR" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/sing_weekly/2017/02/25/BBR/" class="article-date">
+  <time datetime="2017-02-25T06:00:00.000Z" itemprop="datePublished">2017-02-25</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/sing_weekly/categories/ACM-Queue/">ACM Queue</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/sing_weekly/2016/10/15/TensorFlow/">TensorFlow</a>
+    <h1 class="article-title" itemprop="name">
+      BBR Congestion-based congestion control
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/sing_weekly/2016/09/03/Ernest/" class="archive-article-date">
-  <time datetime="2016-09-03T06:00:00.000Z" itemprop="datePublished">Sep 3</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/sing_weekly/2016/09/03/Ernest/">Ernest Efficient Performance Prediction for Large-Scale Advanced Analytics</a>
-    </h1>
-  
+        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>Internet congestion problems result from a design choice made when TCP conges-<br>tion control was created in the 1980s�—interpreting packet loss as “congest-<br>ion.” This equivalence was true at the time but was because of technology lim-<br>itations, not first principles. As NICs (network interface controllers) evolved<br>from Mbps to Gbps and memory chips from KB to GB, the relationship between pac-<br>ket loss and congestion became more tenuous.</p>
+<p>Today TCP’s loss-based congestion control�—even with the current best of breed<br>, CUBIC�—is the primary cause of these problems. When bottleneck buffers are<br>large, loss-based congestion control keeps them full, causing bufferbloat. When<br>bottleneck buffers are small, loss-based congestion control misinterprets loss<br>as a signal of congestion, leading to low throughput. Fixing these problems req-<br>uires an alternative to loss-based congestion control. Finding this alternative<br>requires an understanding of where and how network congestion originates.</p>
+<p><a href="https://research.google.com/pubs/pub45646.html" target="_blank" rel="external">Paper Link</a></p>
 
-    </header>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2017/02/25/BBR/" data-id="cizkwmpco0000f8qx3di6drwu" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Congestion-Control/">Congestion Control</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/sing_weekly/2016/12/31/HyPer4/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">HyPer4 Using P4 to Virtualize the Programmable Data Plane</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
