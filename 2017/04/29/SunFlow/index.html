@@ -3,18 +3,36 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Multi-Resource Packing for Cluster Schedulers | SING Weekly Materials</title>
+  <title>SING Weekly Materials</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Summary:This paper introduces Tetris, a multi-resource cluster scheduler that packstasks to machines based on their requirements of all resource types. Previousscheduling policies may result in waste">
+  <meta name="description" content="title: Sunflow Efficient Optical Circuit Scheduling for Coflowstags:
+
+Coflowcategories:
+CoNEXTcomments: truedate: 2017-04-01 14:00:00
+
+
+Summary:This paper presents the first Optical Circuit Switch sc">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Multi-Resource Packing for Cluster Schedulers">
-<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2016/10/29/Tetris/index.html">
+<meta property="og:title" content="SING Weekly Materials">
+<meta property="og:url" content="https://princhenee.github.io/sing_weekly/2017/04/29/SunFlow/index.html">
 <meta property="og:site_name" content="SING Weekly Materials">
-<meta property="og:description" content="Summary:This paper introduces Tetris, a multi-resource cluster scheduler that packstasks to machines based on their requirements of all resource types. Previousscheduling policies may result in waste">
-<meta property="og:updated_time" content="2016-10-29T06:40:53.692Z">
+<meta property="og:description" content="title: Sunflow Efficient Optical Circuit Scheduling for Coflowstags:
+
+Coflowcategories:
+CoNEXTcomments: truedate: 2017-04-01 14:00:00
+
+
+Summary:This paper presents the first Optical Circuit Switch sc">
+<meta property="og:updated_time" content="2017-04-29T06:03:39.657Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Multi-Resource Packing for Cluster Schedulers">
-<meta name="twitter:description" content="Summary:This paper introduces Tetris, a multi-resource cluster scheduler that packstasks to machines based on their requirements of all resource types. Previousscheduling policies may result in waste">
+<meta name="twitter:title" content="SING Weekly Materials">
+<meta name="twitter:description" content="title: Sunflow Efficient Optical Circuit Scheduling for Coflowstags:
+
+Coflowcategories:
+CoNEXTcomments: truedate: 2017-04-01 14:00:00
+
+
+Summary:This paper presents the first Optical Circuit Switch sc">
   
     <link rel="alternate" href="/atom.xml" title="SING Weekly Materials" type="application/atom+xml">
   
@@ -67,63 +85,44 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-Tetris" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-SunFlow" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/sing_weekly/2016/10/29/Tetris/" class="article-date">
-  <time datetime="2016-10-29T06:00:00.000Z" itemprop="datePublished">2016-10-29</time>
+    <a href="/sing_weekly/2017/04/29/SunFlow/" class="article-date">
+  <time datetime="2017-04-29T06:03:39.657Z" itemprop="datePublished">2017-04-29</time>
 </a>
     
-  <div class="article-category">
-    <a class="article-category-link" href="/sing_weekly/categories/Sigcomm/">Sigcomm</a>
-  </div>
-
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Multi-Resource Packing for Cluster Schedulers
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>This paper introduces Tetris, a multi-resource cluster scheduler that packs<br>tasks to machines based on their requirements of all resource types. Previous<br>scheduling policies may result in waste due to resource (e.g. CPU, memory)<br>fragmentation and over-allocation. Also, fairness concern further degrades<br>the performance. This paper aims to strike a balance between efficiency,<br>job completion time and fairness.</p>
-<p>To achieve all goals,Tetris adapts heuristics for the multi-dimensional bin<br>packing problem to the context of cluster schedulers.  In addition, Tetris<br>improves average job completion time by prioritizing jobs that have less re-<br>maining work. Trace-driven simulations and deployment of their Apache YARN<br>prototype on a 250 node cluster show gains of over 30% in makespan and job<br>completion time while achieving nearly perfect fairness.</p>
-<p><a href="http://dl.acm.org/authorize?N71242" target="_blank" rel="external">Paper Link</a><br><a href="http://conferences.sigcomm.org/sigcomm/2014/doc/slides/84.pdf" target="_blank" rel="external">Slides Link</a></p>
+        <hr>
+<p>title: Sunflow Efficient Optical Circuit Scheduling for Coflows<br>tags:</p>
+<ul>
+<li>Coflow<br>categories:</li>
+<li>CoNEXT<br>comments: true<br>date: 2017-04-01 14:00:00</li>
+</ul>
+<hr>
+<h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary:"></a>Summary:</h3><p>This paper presents the first Optical Circuit Switch scheduling algorithm.<br>Compared with traditional synchronous circuit switching model, SunFlow<br>leverage an asynchronous model to maximize the makespan of Coflow, while<br>keeping the circut switch overhead low. Sunflow realizes non-preemptive<br>scheduling for intra-Coflow, not allowing subflows to preempt each other.<br>For inter-Coflow scheduling, Sunflow implements flexible preemption policy<br>to mimic shortest-Coflow-first. At the intra-Coflow level, the algorithm<br>is proved a factor 2 performance guarantee for the optimal cricuit switch<br>scheduler.</p>
+<p><a href="http://www.cs.rice.edu/~eugeneng/papers/CoNEXT16.pdf" target="_blank" rel="external">Paper Link</a><br><a href="http://www.cs.rice.edu/~xinh/pub/sunflow-slides.pdf" target="_blank" rel="external">Slides Link</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2016/10/29/Tetris/" data-id="cj22v806q002ynwqx9j4owzp9" class="article-share-link">Share</a>
+      <a data-url="https://princhenee.github.io/sing_weekly/sing_weekly/2017/04/29/SunFlow/" data-id="cj22v804v000tnwqx84c7c1xp" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Distributed-System/">Distributed System</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/sing_weekly/tags/Resource-Allocation/">Resource Allocation</a></li></ul>
-
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/sing_weekly/2016/11/05/CLOVE/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          CLOVE How I Learned to Stop Worrying About the Core and Love the Edge
-        
-      </div>
-    </a>
   
-  
-    <a href="/sing_weekly/2016/10/22/PISCES/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/sing_weekly/2017/03/04/HERD/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">PISCES A Programmable, Protocol-Independent Software Switch</div>
+      <div class="article-nav-title">Using RDMA Efficiently for Key-Value Services</div>
     </a>
   
 </nav>
